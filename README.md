@@ -8,6 +8,7 @@ To write a program to predict car prices using a linear regression model and tes
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+```
 1. Import required Python libraries.
 2.Load the car price dataset using pandas.
 3.select independent variables and target variable.
@@ -18,7 +19,7 @@ To write a program to predict car prices using a linear regression model and tes
 8.Evaluate the model using MSE, RMSE, R², and MAE.
 9.Analyze residuals to check linear regression assumptions.
 10.End.
-
+```
 
 ## Program:
 ```
@@ -96,7 +97,18 @@ plt.tight_layout()
 plt.show()
 ```
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+<img width="247" height="170" alt="image" src="https://github.com/user-attachments/assets/7984b0d9-61dd-4463-bdd2-38b2585cb000" />
+<img width="257" height="88" alt="image" src="https://github.com/user-attachments/assets/7da70324-9e63-40a1-8971-c0241eb88293" />
+<img width="291" height="42" alt="image" src="https://github.com/user-attachments/assets/7438db2c-1761-41ce-9292-3d74eb6ae9cf" />
+<img width="262" height="37" alt="image" src="https://github.com/user-attachments/assets/09c1ff24-b810-454e-8698-ff26d9bb6885" />
+<img width="1608" height="588" alt="image" src="https://github.com/user-attachments/assets/0e38d81f-b182-436e-8ee8-10b432c672d0" />
+<img width="1287" height="597" alt="image" src="https://github.com/user-attachments/assets/7dac0036-7f75-4a48-98e7-8bbd19dbe7bf" />
+<img width="1367" height="597" alt="image" src="https://github.com/user-attachments/assets/8f445ebd-c7d8-4dab-b783-93a408b7ab6e" />
+
+
+
+
+
 
 
 ## Result:
