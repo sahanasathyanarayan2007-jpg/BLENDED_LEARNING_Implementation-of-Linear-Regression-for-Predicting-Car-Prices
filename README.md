@@ -28,6 +28,7 @@ Developed by: SAHANA.S
 RegisterNumber:  25004522
 */
 ```
+```
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -52,8 +53,8 @@ model=LinearRegression()
 model.fit(X_train_scaled,Y_train)
 #prediction
 Y_pred=model.predict(X_test_scaled)
-print("Name:Suwasthika V")
-print("Reg. No:212225040445")
+print("Name:SAHANA S")
+print("Reg. No:25004522")
 print("MODEL COEFFICIENTS:")
 for feature,coef in zip(X.columns,model.coef_):
     print(f"{feature:>12}: {coef:>10}")
@@ -93,7 +94,7 @@ sm.qqplot(residuals,line='45',fit=True,ax=ax2)
 ax2.set_title("Q-Q Plot")
 plt.tight_layout()
 plt.show()
-
+```
 ## Output:
 ![simple linear regression model for predicting the marks scored](sam.png)
 
