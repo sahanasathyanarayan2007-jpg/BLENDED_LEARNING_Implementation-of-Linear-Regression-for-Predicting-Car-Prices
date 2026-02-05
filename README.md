@@ -54,7 +54,7 @@ model=LinearRegression()
 model.fit(X_train_scaled,Y_train)
 #prediction
 Y_pred=model.predict(X_test_scaled)
-print("Name:SAHANA S")
+print("Name:SAHANA.S")
 print("Reg. No:25004522")
 print("MODEL COEFFICIENTS:")
 for feature,coef in zip(X.columns,model.coef_):
